@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>170</y>
+      <w>320</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>Account
+--
++accNum : string
++accType : string
++cardNum : string
++expDate : string
+--
++Account()
++Account(accNum, accType, cardNum, expDate)
++getAccNum(): string : accNum
++getAccType(): string : accType
++getCardNum(): string : cardNum
++getExpDate(): string : expDate
++setAccNum(): string : void
++setAccType(): string : void
++setCardNum(): string : void
++setExpDate(): string : void
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>170</y>
+      <w>370</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>AccountTester
+--
++accNum : string
++accType : string
++cardNum : string
++expDate : string
++myAccount:Account</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>280</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>260</y>
+      <w>40</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>has a</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
