@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>180</y>
+      <w>210</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>Procedure.java
+--
+String code
+String name
+String description
+double cost
+set and get methods for all()
+procedure()
+procedure(all parameters)
+selectDB(code)
+insertDB(all parameters)
+updateDB(all parameters)
+deleteDB(code)
+display()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>100</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Business Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>180</y>
+      <w>210</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>Dentist.java
+--
+String id
+String password
+String firstName
+String lastName
+String email
+int office
+set and get methods for all()
+dentist()
+dentist(all attributes listed above
+as parameters)
+selectDB(id)
+insertDB(all parameters)
+updateDB(all parameters)
+deleteDB(id)
+display()
+getAppointments()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>180</y>
+      <w>210</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>Appointment.java
+--
+String apptDateTime
+String patID
+String dentID
+String code
+set and get methods for all()
+appointment()
+appointment(all parameters)
+display()
+selectDB(code)
+insertDB(all parameters)
+updateDB(all parameters)
+deleteDB(code)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>180</y>
+      <w>210</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>Patient.java
+--
+String id
+String password
+String firstName
+String lastName
+String address
+String email
+String insuranceco
+set and get methods for all ()
+patient()
+patient(all parameters)
+selectDB(id)
+insertDB(all parameters)
+updateDB(all parameters)
+deleteDB(id)
+display()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>120</y>
+      <w>340</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;320.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>120</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;90.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>120</y>
+      <w>250</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>120</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>480</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>JSPs</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>610</x>
+      <y>570</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>login.jsp (for dentist 
+and patient)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>620</x>
+      <y>520</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>index.jsp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>760</x>
+      <y>530</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>editInfoDentist.jsp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>470</x>
+      <y>530</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>editInfoPatient.jsp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>320</x>
+      <y>480</y>
+      <w>140</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>editAppointment.jsp
+(this views/changes
+and adds appts)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>890</x>
+      <y>480</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>displayAppointments.jsp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>640</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Servlets</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>620</x>
+      <y>680</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>LoginServlet.java</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>400</x>
+      <y>680</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>EditAppointmentServlet.java</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>760</x>
+      <y>680</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>EditPatientInfoServlet.java</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>610</x>
+      <y>730</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>EditDentistInfo.java</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>470</x>
+      <y>480</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>patient.jsp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>750</x>
+      <y>480</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>dentist.jsp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1060</x>
+      <y>180</y>
+      <w>270</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>AppointmentList.java
+--
+ArrayList&lt;Appointment&gt; AppointmentList
+getAppointment()
+addAppointment()
+size()
+display()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>100</y>
+      <w>350</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;330.0;80.0</additional_attributes>
+  </element>
+</diagram>
