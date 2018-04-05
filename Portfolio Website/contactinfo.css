@@ -1,0 +1,20 @@
+header{color:#FFFFFF; background-color:#000000;font-family:Georgia;}
+header, nav, main, footer{display:block;}
+nav{font-weight:bold; padding:5px; float: top; padding-top:20px;padding-right:5px;padding-left:20px;background-color:#000000;}
+nav a{text-decoration:none;}
+nav a:link{color:#F8F8FF;}
+nav a:visited{color:#F8F8FF;}
+nav a:hover{color:#F8F8FF;}
+nav ul{list-style-type:none;margin:0;padding-left:0;}
+body{background-image:url("Pictures/background.jpg");font-family:Verdana;}
+h1{line-height:200%;background-image:url("Pictures/Weights.jpg");background-position: right;background-repeat: no-repeat; padding-left:20px;height:72px;margin-bottom: 0;background-color:#696969;}
+h2{color:#000000;font-family:Georgia;}
+main{padding-left:20px;padding-right:20px;background-color:#FFFFFF;padding-top:1px;padding-bottom:1px;}
+main ul{list-style-position:inside;}
+dt{font-weight:bold;}
+#wrapper{width:100%;margin-right:auto;margin-left:auto;min-width:700px;max-width:2000px;box-shadow: 10px 10px 10px #888888;}
+table, td, tr{font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;border-collapse: collapse;width: 50%;border: 1px solid #ddd;padding: 8px;}
+th{padding-top: 12px;padding-bottom: 12px; text-align: left; background-color: gray;color: white;border: 1px solid black;}
+.rotate90 {-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-o-transform: rotate(90deg);-ms-transform: rotate(90deg);transform: rotate(90deg);}
+.otherimg{padding-top:20px;}
+footer{font-size:.70em;font-style:italic;text-align:center;padding:10px;background-color:#FFFFFF;margin-left:170px;}
