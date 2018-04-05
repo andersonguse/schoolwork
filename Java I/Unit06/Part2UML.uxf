@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>220</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Square
+--
+-side : double
+--
++Square()
++Square(side)
++setSide() : double : void
++getSide() : double : side
++getArea(): double
++getPerimeter() : double
++howToColor(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>180</y>
+      <w>290</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>GeometricObject
+--
+-color : string
+-filled : boolean
+-creationDate : string
+--
++GeometricObject()
++GeometricObject(color, filled, creationDate)
++setColor(): string : void
++setFilled(): boolean : void
++setCreationDate(): string : void
++getColor(): string : color
++getFilled() : boolean : filled
++getCreationDate(): string : creationDate
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1010</x>
+      <y>260</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Colorable
+--
++howToColor()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>270</y>
+      <w>40</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>is a </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>290</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>280</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>950</x>
+      <y>260</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>has a</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
